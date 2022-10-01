@@ -1,0 +1,365 @@
+*{  
+    margin:0%;
+    padding:0%;
+    box-sizing: border-box;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.bookworm{
+    width:100%;
+    height:790px;
+    background: white;
+    color:black;
+    font-size: 100px;
+    font-weight: 680px;
+    font-family:cursive;
+    margin-bottom: 100px;
+
+}
+
+.head{
+    padding: 100px;    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    margin: 0px 200px;
+}
+
+.email{
+    width:120px;
+    height: 40px;
+    background-color: darkblue;
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    border: solid 2px white;
+    border-radius: 5px;
+    margin-left: 680px;
+}
+
+
+.b {
+    color:darkblue;
+    padding-left: 50px;
+}
+
+h1{
+    width: 100%;
+    height: 100%;
+    font-size: 70px;
+    font-weight: 700;
+    font-style: oblique;
+    background-color:#BDB7AE;
+    color:dimgray;  
+    font-family: sans-serif;
+}
+
+.fiction{
+    display: grid;
+    grid-template-columns: 550px 550px;
+    grid-template-rows: repeat(20,300px);
+    gap: 40px;
+    margin-left: 220px;
+}
+
+.title{
+    display: flex;             
+}
+
+
+.description{
+    list-style: none;
+    padding-left: 20px;
+}
+.name{
+    margin: 10px;
+    font-size:25px;
+    color:darkblue;
+    font-weight: 700;
+}
+
+.author{
+    margin:15px;
+    font-size: 18px;
+    font-weight: 400;
+    color:#898B95;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.btn{
+    display: none;
+    margin:20px;
+    background-color:#000;
+    color:#ffffff;
+    font-size: 30px;
+    width:150px;
+    border-radius: 10px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+.hp1img{
+ 
+    width: 180px;
+    height: 280px;
+    background: url("pictures/hp1.jpeg")no-repeat center center / cover;
+}
+
+.hp2img{
+  
+    width: 180px;
+    height: 280px;
+    background: url("pictures/hp2.jpg") no-repeat center center / cover;
+}
+
+.hp3img{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/hp3.jpg")no-repeat center center / cover;
+}
+
+.hp4img{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/hp4.jpg")no-repeat center center / cover;
+}
+
+.hp5img{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/hp5.jpg")no-repeat center center / cover;
+}
+
+.hp6img{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/hp6.jpg")no-repeat center center / cover;
+}
+
+.hp7img{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/hp7.jpg")no-repeat center center / cover;
+}
+
+.db1{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/db1.jpeg")no-repeat center center / cover;
+}
+
+.db2{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/db2.jpeg")no-repeat center center / cover;
+}
+
+.db5{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/db5.jpeg")no-repeat center center / cover;
+}
+
+.db6{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/db6.jpeg")no-repeat center center / cover;
+}
+
+.db7{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/db7.jpeg")no-repeat center center / cover;
+}
+
+.hobbit{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/hobbit.jpeg")no-repeat center center / cover;
+}
+
+.lotr{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/lotr.jpeg")no-repeat center center / cover;
+}
+
+.murakami{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/toru.jpeg")no-repeat center center / cover;
+}
+
+.sh{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/sh.jpeg")no-repeat center center / cover;
+}
+
+.huck{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/huck.jpg")no-repeat center center / cover;
+}
+
+.love{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/love.jpeg")no-repeat center center / cover;
+}
+
+.pak{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/pak.jpeg")no-repeat center center / cover;
+}
+
+.hg{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/hg.jpg")no-repeat center center / cover;
+}
+
+
+.gatsby{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/gatsby.jpeg")no-repeat center center / cover;
+}
+
+.gods{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/gods.jpeg")no-repeat center center / cover;
+}
+
+.catch{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/catch.jpg")no-repeat center center / cover;
+}
+
+.kafka{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/kafka.jpeg")no-repeat center center / cover;
+}
+
+.musk{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/musk.jpeg")no-repeat center center / cover;
+}
+
+
+
+.apj{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/apj.jpg")no-repeat center center / cover;
+}
+
+.sapiens{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/sapiens.jpeg")no-repeat center center / cover;
+}
+
+.nike{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/nike.jpg")no-repeat center center / cover;
+}
+
+.naval{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/naval.png")no-repeat center center / cover;
+}
+
+.hour{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/hour.jpeg")no-repeat center center / cover;
+}
+
+.friends{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/friends.jpeg")no-repeat center center / cover;
+}
+
+
+.time{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/time.jpeg")no-repeat center center / cover;
+}
+
+.design{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/design.jpeg")no-repeat center center / cover;
+}
+
+.habits{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/habits.jpeg")no-repeat center center / cover;
+}
+
+.freco{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/freco.jpg")no-repeat center center / cover;
+}
+
+
+.morrie{
+    margin-left: 0px;
+    width: 180px;
+    height: 280px;
+    background: url("pictures/morrie.jpeg")no-repeat center center / cover;
+}
