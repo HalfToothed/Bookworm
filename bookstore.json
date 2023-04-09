@@ -70,7 +70,7 @@
       },
       {
         "name": "Kafka on the Shore",
-        "image": "pictures/db6.jpg",
+        "image": "pictures/cat.jpeg",
         "author": "Haruki Murakami"
       },
       {
@@ -90,7 +90,7 @@
       },
       {
         "name": "The Silent Patient",
-        "image": "pictures/db6.jpg",
+        "image": "pictures/silent.jpeg",
         "author": "Alex Michaelides"
       },
       {
@@ -115,12 +115,12 @@
       },
       {
         "name": "And Then There Were None",
-        "image": "pictures/",
+        "image": "pictures/none.jpeg",
         "author": "Agatha Christie"
       },
       {
         "name": "Metamorphosis",
-        "image": "pictures/Kafka.jpeg",
+        "image": "pictures/kafka.jpeg",
         "author": "Franz Kafka"
       },
       {
@@ -135,12 +135,12 @@
       },
       {
         "name": "I Robot",
-        "image": "pictures/db6.jpg",
+        "image": "pictures/irobot.jpeg",
         "author": "Isaac Asimov"
       },
       {
         "name": "Rest of the Robots",
-        "image": "pictures/db6.jpg",
+        "image": "pictures/robot.jpeg",
         "author": "Isaac Asimov"
       },
       {
@@ -165,12 +165,12 @@
       },
       {
         "name": "Can't Hurt Me",
-        "image": "pictures/apj.jpg",
+        "image": "pictures/hurt.jpeg",
         "author": "David Goggins"
       },
       {
         "name": "The Ride of a Lifetime",
-        "image": "pictures/apj.jpg",
+        "image": "pictures/ride.jpeg",
         "author": "Robert Iger"
       },
       {
@@ -179,10 +179,53 @@
         "author": "Tim Ferriss"
       },
       {
-        "name": "Wings of Fire",
-        "image": "pictures/apj.jpg",
-        "author": "APJ Abdul Kalam"
-      }
+        "name": "Outliers",
+        "image": "pictures/outliers.jpeg",
+        "author": "Malcom Gladwell"
+      },
 
+      {
+        "name": "Freakonomics",
+        "image": "pictures/freco.jpg",
+        "author": "Steven Levitt & Stephen Dubner"
+      },
+      {
+        "name": "Sapiens",
+        "image": "pictures/sapiens.jpeg",
+        "author": "Yuval Noah Harari"
+      },
+
+       {
+        "name": "The 7 Habits of Highly Effective People",
+        "image": "pictures/habits.jpeg",
+        "author": "Stephen R.Covey"
+      },
+
+       {
+        "name": "A Brief History of Time",
+        "image": "pictures/time.jpeg",
+        "author": "Stephen Hawking"
+      },
+
+       {
+        "name": "The Grand Design",
+        "image": "pictures/design.jpeg",
+        "author": "Stephen Hawking"
+      },
+       {
+        "name": "Black Holes & Baby Universes and other essays",
+        "image": "pictures/baby.jpeg",
+        "author": "Stephen Hawking"
+      },
+       {
+        "name": "Black Swan",
+        "image": "pictures/swan.jpeg",
+        "author": "Nassim Nicholas Taleb"
+      },
+       {
+        "name": "The Alchemist",
+        "image": "pictures/alchemist.jpeg",
+        "author": "Paulo Coelho"
+      }
 ]
   

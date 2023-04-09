@@ -1,91 +1,100 @@
-/* Set global styles */
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-  }
-  
-  body {
-    font-family: "Roboto", sans-serif;
-    font-size: 16px;
-    line-height: 1.4;
-    color: #333;
-    background-color: #f2f2f2;
-  }
-  
-  /* Style the heading */
-  .heading {
-    font-family: "Montserrat", sans-serif;
-    font-size: 40px;
-    text-align: center;
-    padding: 50px 0;
-    color: #333;
-  }
-  
-  /* Style the container */
-  .container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    grid-auto-rows: minmax(350px, auto);
-    grid-gap: 20px;
-    padding: 20px;
-  }
-  
-  /* Style the book div */
+body {
+  background: linear-gradient(to bottom, #b9daff, #609bf4);
+}
+
+
+.heading {
+  font-size: 55px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 30px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  background: linear-gradient(45deg, #889fbd, #081a58);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+}
+
+
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.bookdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px;
+  background-color: #f1f1f1;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  flex-basis: calc(25% - 30px);
+  transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
   .bookdiv {
-    background-color: #c0a5bf;
-    border-radius: 5px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    padding: 20px;
-    transition: box-shadow 0.3s ease;
+    flex-basis: calc(50% - 30px);
   }
-  
-  /* Style the book image */
-  .bookdiv img {
-    display: block;
-    margin: 0 auto 20px;
-    max-width: 100%;
-    height: auto;
-    border-radius: 5px;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 480px) {
+  .bookdiv {
+    flex-basis: calc(100% - 30px);
   }
-  
-  /* Style the book name */
+}
+
+.bookdiv:hover {
+  transform: translateY(-5px);
+}
+
+.bookdiv img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.bookdiv h2 {
+  margin: 10px 0;
+  font-size: 24px;
+  color: #333;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 480px) {
   .bookdiv h2 {
-    font-family: "Montserrat", sans-serif;
-    font-size: 24px;
-    text-align: center;
-    margin-bottom: 10px;
-    color: #333;
+    font-size: 20px;
   }
-  
-  /* Style the book author */
+}
+
+.bookdiv p {
+  margin: 0;
+  font-size: 18px;
+  color: #777;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+@media (max-width: 480px) {
   .bookdiv p {
-    font-family: "Roboto", sans-serif;
     font-size: 16px;
-    text-align: center;
-    margin-bottom: 20px;
-    color: #666;
   }
-  
-  /* Style the link button */
-  .link-button {
-    display: block;
-    background-color: #00adb5;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    margin: 0 auto;
-    border-radius: 5px;
-    text-decoration: none;
-    font-family: "Roboto", sans-serif;
-    font-size: 18px;
-    font-weight: bold;
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    transition: background-color 0.3s ease;
-  }
-  
-  .link-button:hover {
-    background-color: #1e90ff;
-  }
-  
+}
+
+/* Add some color to the book covers */
+.bookdiv:nth-child(odd) img {
+  border: 5px solid #FFC300;
+}
+
+.bookdiv:nth-child(even) img {
+  border: 5px solid #FF5733;
+}
