@@ -1,0 +1,188 @@
+[
+      {
+        "name": "Harry Potter and the Philosopher's Stone",
+        "image": "pictures/hp1.jpeg",
+        "author": "J.K. Rowling"
+      },
+      {
+        "name": "Harry Potter and the Chamber of Secrets",
+        "image": "pictures/hp2.jpg",
+        "author": "J.K. Rowling"
+      },
+      {
+        "name": "Harry Potter and the Prisoner of Azkaban",
+        "image": "pictures/hp3.jpg",
+        "author": "J.K. Rowling"
+      },
+      
+      {
+        "name": "Harry Potter and the Order of Phoenix",
+        "image":"pictures/hp5.jpg",
+        "author": "J.K. Rowling"
+      },
+      {
+        "name": "Harry Potter and the Half Blood Prince",
+        "image": "pictures/hp6.jpg",
+        "author": "J.K. Rowling"
+      },
+      {
+        "name": "Digital Fortress",
+        "image": "pictures/db1.jpeg",
+        "author": "Dan Brown"
+      },
+      {
+        "name": "Deception Point",
+        "image": "pictures/db2.jpeg",
+        "author": "Dan Brown"
+      },
+      {
+        "name": "The Lost Symbol",
+        "image": "pictures/db5.jpeg",
+        "author": "Dan Brown"
+      },
+    
+      {
+        "name": "Inferno",
+        "image": "pictures/db6.jpeg",
+        "author": "Dan Brown"
+      },
+
+      {
+        "name": "Origin",
+        "image": "pictures/db7.jpeg",
+        "author": "Dan Brown"
+      },
+
+      {
+        "name": "The Hobbit",
+        "image": "pictures/hobbit.jpeg",
+        "author": "JRR Tolkien"
+      },
+      {
+        "name": "The Fellowship of the Ring",
+        "image": "pictures/lotr.jpeg",
+        "author": "JRR Tolkien"
+      },
+      {
+        "name": "Norwegian Wood",
+        "image": "pictures/toru.jpeg",
+        "author": "Haruki Murakami"
+      },
+      {
+        "name": "Kafka on the Shore",
+        "image": "pictures/db6.jpg",
+        "author": "Haruki Murakami"
+      },
+      {
+        "name": "American Gods",
+        "image": "pictures/gods.jpeg",
+        "author": "Neil Gaiman"
+      },
+      {
+        "name": "The Great Gatsby",
+        "image": "pictures/gatsby.jpeg",
+        "author": "F.Scott Fitezgerald"
+      },
+      {
+        "name": "The Hunger Games",
+        "image": "pictures/hg.jpg",
+        "author": "Suzanne Collins"
+      },
+      {
+        "name": "The Silent Patient",
+        "image": "pictures/db6.jpg",
+        "author": "Alex Michaelides"
+      },
+      {
+        "name": "The Adventures of Huckleberry Finn",
+        "image": "pictures/huck.jpg",
+        "author": "Mark Twain"
+      },
+      {
+        "name": "Catch 22",
+        "image": "pictures/catch.jpg",
+        "author": "Joseph Heller"
+      },
+      {
+        "name": "Train to Pakistan",
+        "image": "pictures/pak.jpeg",
+        "author": "Khushwant Singh"
+      },
+      {
+        "name": "The Adventure of Sherlock Holmes",
+        "image": "pictures/sh.jpeg",
+        "author": "Sir Arthur Conan Doyle"
+      },
+      {
+        "name": "And Then There Were None",
+        "image": "pictures/",
+        "author": "Agatha Christie"
+      },
+      {
+        "name": "Metamorphosis",
+        "image": "pictures/Kafka.jpeg",
+        "author": "Franz Kafka"
+      },
+      {
+        "name": "Forty Rules of Love",
+        "image": "pictures/love.jpeg",
+        "author": "Elif Shafak"
+      },
+      {
+        "name": "Tuesday with Morrie",
+        "image": "pictures/morrie.jpeg",
+        "author": "Mitch Albom"
+      },
+      {
+        "name": "I Robot",
+        "image": "pictures/db6.jpg",
+        "author": "Isaac Asimov"
+      },
+      {
+        "name": "Rest of the Robots",
+        "image": "pictures/db6.jpg",
+        "author": "Isaac Asimov"
+      },
+      {
+        "name": "Shoe Dog",
+        "image": "pictures/nike.jpg",
+        "author": "Phil Knight"
+      },
+      {
+        "name": "Wings of Fire",
+        "image": "pictures/apj.jpg",
+        "author": "APJ Abdul Kalam"
+      },
+      {
+        "name": "Elon Musk",
+        "image": "pictures/musk.jpeg",
+        "author": "Ashlee Vance"
+      },
+      {
+        "name": "The Almanack of Naval Ravikant",
+        "image": "pictures/naval.png",
+        "author": "Eric Jorgenson"
+      },
+      {
+        "name": "Can't Hurt Me",
+        "image": "pictures/apj.jpg",
+        "author": "David Goggins"
+      },
+      {
+        "name": "The Ride of a Lifetime",
+        "image": "pictures/apj.jpg",
+        "author": "Robert Iger"
+      },
+      {
+        "name": "The 4-Hour Work Week",
+        "image": "pictures/hour.jpeg",
+        "author": "Tim Ferriss"
+      },
+      {
+        "name": "Wings of Fire",
+        "image": "pictures/apj.jpg",
+        "author": "APJ Abdul Kalam"
+      }
+
+]
+  
